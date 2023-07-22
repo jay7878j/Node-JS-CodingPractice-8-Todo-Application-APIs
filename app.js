@@ -38,7 +38,7 @@ const priorityCheck = (queryValues) => {
   return queryValues.priority !== undefined;
 };
 
-// API 1 Get All Todos Data from todo tale
+// API 1 Get All Todos Data from todo table
 
 app.get("/todos/", async (request, response) => {
   const { status, priority, search_q = "" } = request.query;
